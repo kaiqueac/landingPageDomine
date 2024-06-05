@@ -58,5 +58,11 @@ $(document).ready(function() {
         origin: 'left',
         duration: 2000,
         distance: '20%'
+    });
+
+    ScrollReveal().reveal('#banner', {
+        origin: 'right',
+        duration: 1500,
+        distance: '20%'
     })
 })
