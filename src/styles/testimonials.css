@@ -1,0 +1,41 @@
+#testimonials {
+    min-height: calc(100vh - 91px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimonials-bus {
+    width: 800px;
+    height: auto;
+}
+
+#feedbacks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.feed {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 12px;
+}
+
+.feed hr {
+    width: 5px;
+    height: 5px;
+}
+
+@media screen and (max-width: 1170px) { 
+    #testimonials {
+        flex-direction: column;
+    }
+
+    #testimonials-bus {
+       display: none;
+    }
+}
