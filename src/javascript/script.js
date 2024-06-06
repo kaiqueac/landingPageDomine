@@ -65,5 +65,31 @@ $(document).ready(function() {
         origin: 'right',
         duration: 1500,
         distance: '20%'
-    })
+    });
+
+    ScrollReveal().reveal('#coments-banner', {
+        origin: 'left',
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('#coments-feedbacks', {
+        origin: 'right',
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('.section-title', {
+        origin: 'left',
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('.section-subtitle', {
+        origin: 'right',
+        duration: 2000,
+        distance: '20%'
+    });
+
+
 })
