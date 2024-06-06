@@ -4,7 +4,6 @@
     font-family: "Montserrat", sans-serif;
 }
 
-
 .video-content {
     display: flex;
     justify-content: center;
@@ -23,7 +22,6 @@ h2, p {
     text-align: center;
 }
 
-
 .botao-video {
     align-items: center;
     text-align: center;
@@ -32,7 +30,6 @@ h2, p {
 a {
     border: none;
     text-decoration: none;
-    display: flex;
     align-items: center;
     justify-content: center;
     background-color: green;
