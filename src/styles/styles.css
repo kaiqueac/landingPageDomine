@@ -54,5 +54,17 @@ section {
     font-size: 2rem;
 }
 
+@media screen and (max-width: 1170px) { 
+    .section-title {
+        font-size: 1.2rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1.5rem;
+    }
+
+}
+
+
 
 

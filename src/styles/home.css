@@ -65,4 +65,17 @@
         text-align: center;
         align-items: center;
     }
+
+    #cta .title {
+        font-size: 2.3rem;
+    }
+    
+    #cta .title span {
+        font-size: 2.3rem;
+        color: #387CA6;
+    }
+    
+    #cta .description {
+        font-size: 1.2rem;
+    }
 }
