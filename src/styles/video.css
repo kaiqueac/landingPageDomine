@@ -18,7 +18,7 @@ video {
     border-radius: 25px;
 }
 
-h2, p {
+h2 {
     text-align: center;
 }
 
@@ -44,4 +44,20 @@ a {
 
 a:hover {
     background-color: rgb(1, 70, 1);
+}
+
+@media screen and (max-width: 1170px) { 
+    .video-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+    
+    video {
+        max-width: 90%;
+        max-height: 100%;
+        border: 15px solid #387CA6;
+        border-radius: 25px;
+    }
 }
