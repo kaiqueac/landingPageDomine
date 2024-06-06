@@ -1,0 +1,19 @@
+.timer-text {
+    font-size: 2rem;
+}
+
+.timer-text del {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#container span {
+    color: rgb(192, 3, 3);
+    font-weight: bold;
+}
+
+#countdown {
+    font-weight: bold;
+    display: inline;
+    color: rgb(192, 3, 3);
+}

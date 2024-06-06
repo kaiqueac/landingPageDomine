@@ -64,7 +64,7 @@ $(document).ready(function() {
     ScrollReveal().reveal('#banner', {
         origin: 'right',
         duration: 1500,
-        distance: '20%'
+        distance: '10%'
     });
 
     ScrollReveal().reveal('#coments-banner', {
@@ -82,13 +82,13 @@ $(document).ready(function() {
     ScrollReveal().reveal('.section-title', {
         origin: 'left',
         duration: 2000,
-        distance: '20%'
+        distance: '10%'
     });
 
     ScrollReveal().reveal('.section-subtitle', {
         origin: 'right',
         duration: 2000,
-        distance: '20%'
+        distance: '10%'
     });
 
 

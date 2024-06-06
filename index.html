@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="src/styles/menu.css">
     <link rel="stylesheet" href="src/styles/testimonials.css">
     <link rel="stylesheet" href="src/styles/coments.css">
+    <link rel="stylesheet" href="src/styles/timer.css">
     <title>Mindful Growth | Domine Finanças e Negócios</title>
 
     <!-- JQUERY -->
@@ -199,7 +200,12 @@
                     <h1 class="title">
                         Compre agora e comece a trilhar o caminho rumo à <span>prosperidade!</span>
                     </h1>
-                    <img src="src/imgs/preco.png" alt="">
+                    <h3 class="timer-text">R$29,90 <del>R$149,90</del></h3>
+                    <div id="container">
+                        <span>Só mais</span>
+                        <div id="countdown"></div>
+                        <span>horas por esse preço!</span>
+                    </div>
                     <a href="https://pay.kiwify.com.br/KUSR99q" class="btn-default" target="_blank">
                         Adquira já
                     </a>
@@ -218,5 +224,6 @@
     <script src="src/javascript/script.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="src/javascript/video.js"></script>
+    <script src="src/javascript/timer.js" defer></script>
 </body>
 </html>
