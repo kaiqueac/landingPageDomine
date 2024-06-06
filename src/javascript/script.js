@@ -35,6 +35,7 @@ $(document).ready(function() {
         $(navItems[activeSectionIndex]).addClass('active');
 
     });
+    
 
     ScrollReveal().reveal('#cta', {
         origin: 'left',
